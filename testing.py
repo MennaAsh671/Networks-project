@@ -27,7 +27,7 @@ while 1:
     if message.split()[1] is None:
         continue
 
-    file = message.split()[1]
+    file = message.split()[0]
 
     fileExist = "false"
     filetouse = file
